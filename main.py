@@ -34,7 +34,7 @@ def calculate_investment_time(
     return {
         "years": str(years),
         "months": str(remainingMonths),
-        "message": f"{years} години и {remainingMonths} месеца"
+        "message": f"{years} years and {remainingMonths} months"
     }
 
 @app.get("/roi")
