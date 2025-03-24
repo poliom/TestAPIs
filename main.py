@@ -65,6 +65,7 @@ def calculate_compound_interest(
 
     amount = principal * (1 + (rate / (100 * times_compounded))) ** (times_compounded * time)
     interest = amount - principal
+    #test
 
     return {
         "finalAmount": str(round(amount, 2)),
